@@ -1,0 +1,45 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Coverage and logs
+.coverage
+.coverage.*
+htmlcov/
+*.log
+
+# Local secrets and environment files
+.env
+.env.*
+*.env
+!.env.example
+!.env.sample
+!.env.*.example
+!.env.*.sample
+
+# Generated model and data files
+mlruns/
+model_cache/
+*.pkl
+*.joblib
+*.parquet
+
+# Kubernetes local config
+kubeconfig
+.kube/
+
+# Rust build output, if you add Rust services later
+target/
+
+# macOS and editor history
+.DS_Store
+.history/
